@@ -2,8 +2,9 @@
   "nodeModulesDir": "auto",
   "tasks": {
     "check": "deno fmt --check . && deno lint . && deno check",
-    "dev": "deno run -A --unstable-kv main.ts",
-    "build": "deno run -A --unstable-kv main.ts build",
-    "start": "deno serve -A --unstable-kv main.ts"
-  }
+    "dev": "deno run -A main.ts",
+    "build": "deno run -A main.ts build",
+    "start": "deno serve -A main.ts"
+  },
+  "unstable": ["kv"]
 }
