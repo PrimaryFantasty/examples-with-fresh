@@ -4,6 +4,6 @@
     "check": "deno fmt --check . && deno lint . && deno check",
     "dev": "deno run -A --unstable-kv main.ts",
     "build": "deno run -A --unstable-kv main.ts build",
-    "start": "deno serve -A ----unstable-kv main.ts"
+    "start": "deno serve -A --unstable-kv main.ts"
   }
 }
